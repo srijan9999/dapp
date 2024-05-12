@@ -43,13 +43,10 @@ This is a basic example of creating a decentralized application (DApp) using Har
 6. **Open Cmd with administrator benefits and go to the vs code directory **
     ![image](https://github.com/srijan9999/dapp/assets/148010653/441e7161-6274-4ff8-aef5-746969a45406)
 
-7. 
-
-   Follow the prompts to create a new Hardhat project.
 
   
 
-9. **Create a smart contract:**
+7. **Create a smart contract:**
    - In the `contracts` directory, create a new file named `SampleContract.sol`:
 
    ```solidity
@@ -58,7 +55,7 @@ This is a basic example of creating a decentralized application (DApp) using Har
   ![image](https://github.com/srijan9999/dapp/assets/148010653/f04ebd9f-9c7c-4271-88ff-069b88a65547)
 
 
-5. **Write tests for the smart contract:**
+8. **Write tests for the smart contract:**
    - In the `test` directory, create a new file named `sampleContract.test.js`:
 
    ```javascript
@@ -67,14 +64,14 @@ This is a basic example of creating a decentralized application (DApp) using Har
  ![image](https://github.com/srijan9999/dapp/assets/148010653/eda10fd8-b248-42eb-ac58-2ad54a15a103)
 
 
-6. **Compile the contracts:**
+9. **Compile the contracts:**
    - Run the following command in the terminal:
 
    ```bash
    npx hardhat compile
    ```
 
-7. **Write a frontend:**
+10. **Write a frontend:**
    - Create an `index.html` file in the root directory.
       ```
      
@@ -83,19 +80,19 @@ This is a basic example of creating a decentralized application (DApp) using Har
    -![image](https://github.com/srijan9999/dapp/assets/148010653/f96aaccc-17db-4402-86f6-b3f076879da6)
 
 
-8. **Deploy the contract locally:**
+11. **Deploy the contract locally:**
    - Run the following command in the terminal:
 
    ```bash
    npx hardhat node
    ```
 
-9. **Interact with the frontend:**
+12. **Interact with the frontend:**
    - Replace `"YOUR_CONTRACT_ADDRESS"` in the `index.html` file with the deployed contract address.
    - Open the `index.html` file in a web browser.
-   - ![image](https://github.com/srijan9999/dapp/assets/148010653/c022946c-4a35-4e84-8cb7-6684c4c9f2fd)
-
+  
 
 Now you have a simple DApp running locally! You can interact with the smart contract through the frontend.
+ -![image](https://github.com/srijan9999/dapp/assets/148010653/c022946c-4a35-4e84-8cb7-6684c4c9f2fd)
 
 
