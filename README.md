@@ -40,27 +40,25 @@ This is a basic example of creating a decentralized application (DApp) using Har
    npx hardhat
    ```
     ![image](https://github.com/srijan9999/dapp/assets/148010653/46ffab00-37e1-43e6-a460-a4f83b9df712)
-6. **Open Cmd with administrator benefits and go to the vs code directory **
+   ![image](https://github.com/srijan9999/dapp/assets/148010653/5d07c222-1b5d-4ddf-91ab-10628485e83a)
+
+7. **Open Cmd with administrator benefits and go to the vs code directory **
     ![image](https://github.com/srijan9999/dapp/assets/148010653/441e7161-6274-4ff8-aef5-746969a45406)
 
 
   
 
-7. **Create a smart contract:**
+8. **Create a smart contract:**
    - In the `contracts` directory, create a new file named `SampleContract.sol`:
 
-   ```solidity
-  
-   ```
+   
   ![image](https://github.com/srijan9999/dapp/assets/148010653/f04ebd9f-9c7c-4271-88ff-069b88a65547)
 
 
 8. **Write tests for the smart contract:**
    - In the `test` directory, create a new file named `sampleContract.test.js`:
 
-   ```javascript
- 
-   ```
+   
  ![image](https://github.com/srijan9999/dapp/assets/148010653/eda10fd8-b248-42eb-ac58-2ad54a15a103)
 
 
@@ -73,9 +71,7 @@ This is a basic example of creating a decentralized application (DApp) using Har
 
 10. **Write a frontend:**
    - Create an `index.html` file in the root directory.
-      ```
-     
-       ```
+   
 
    -![image](https://github.com/srijan9999/dapp/assets/148010653/f96aaccc-17db-4402-86f6-b3f076879da6)
 
