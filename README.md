@@ -1,6 +1,3 @@
-Certainly! Here's how you can format the instructions into a README.md file for GitHub:
-
-```markdown
 # DApp Sample using Hardhat on Windows with Visual Studio Code
 
 This is a basic example of how to create a decentralized application (DApp) using Hardhat on Windows with Visual Studio Code. The DApp consists of a simple smart contract and a front end to interact with it.
