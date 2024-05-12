@@ -1,6 +1,6 @@
 # DApp Sample using Hardhat on Windows with Visual Studio Code
 
-This is a basic example of how to create a decentralized application (DApp) using Hardhat on Windows with Visual Studio Code. The DApp consists of a simple smart contract and a front end to interact with it.
+This is a basic example of creating a decentralized application (DApp) using Hardhat on Windows with Visual Studio Code. 
 
 ## Prerequisites
 
@@ -18,18 +18,38 @@ This is a basic example of how to create a decentralized application (DApp) usin
 2. **Initialize the project:**
    - Run the following commands in the terminal:
 
+
+ ```bash
+  npm i create-react-app
+  npx create-react-app yo
+   ```
+![image](https://github.com/srijan9999/dapp/assets/148010653/08487b2b-b523-478b-a5ad-e3e923bd7fa1)
+
+3. **Change the directory by your app name (yo)**
    ```bash
-   npm init -y
-   npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai
+   cd yo
+   ```
+4. **Install hardhat in the app folder**
+   ```bash
+   npm install hardhat
+   ```
+   ![image](https://github.com/srijan9999/dapp/assets/148010653/47b13a3c-062a-470c-b1f5-711448c8a1f2)
+
+5. **Delete the readme file then run the entre twice to make the js file**
+    ```bash
    npx hardhat
    ```
+    ![image](https://github.com/srijan9999/dapp/assets/148010653/46ffab00-37e1-43e6-a460-a4f83b9df712)
+6. **Open Cmd with administrator benefits and go to the vs code directory **
+    ![image](https://github.com/srijan9999/dapp/assets/148010653/441e7161-6274-4ff8-aef5-746969a45406)
+
+7. 
 
    Follow the prompts to create a new Hardhat project.
 
-   ![image](https://github.com/srijan9999/dapp/assets/148010653/7606eb9a-f57e-43aa-8773-8a565a390353)
+  
 
-
-4. **Create a smart contract:**
+9. **Create a smart contract:**
    - In the `contracts` directory, create a new file named `SampleContract.sol`:
 
    ```solidity
@@ -60,7 +80,7 @@ This is a basic example of how to create a decentralized application (DApp) usin
      
        ```
 
-   - ![image](https://github.com/srijan9999/dapp/assets/148010653/f96aaccc-17db-4402-86f6-b3f076879da6)
+   -![image](https://github.com/srijan9999/dapp/assets/148010653/f96aaccc-17db-4402-86f6-b3f076879da6)
 
 
 8. **Deploy the contract locally:**
@@ -73,6 +93,8 @@ This is a basic example of how to create a decentralized application (DApp) usin
 9. **Interact with the frontend:**
    - Replace `"YOUR_CONTRACT_ADDRESS"` in the `index.html` file with the deployed contract address.
    - Open the `index.html` file in a web browser.
+   - ![image](https://github.com/srijan9999/dapp/assets/148010653/c022946c-4a35-4e84-8cb7-6684c4c9f2fd)
+
 
 Now you have a simple DApp running locally! You can interact with the smart contract through the frontend.
 
