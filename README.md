@@ -26,69 +26,51 @@ This is a basic example of how to create a decentralized application (DApp) usin
 
    Follow the prompts to create a new Hardhat project.
 
-3. **Create a smart contract:**
+   ![image](https://github.com/srijan9999/dapp/assets/148010653/7606eb9a-f57e-43aa-8773-8a565a390353)
+
+
+4. **Create a smart contract:**
    - In the `contracts` directory, create a new file named `SampleContract.sol`:
 
    ```solidity
-   // SPDX-License-Identifier: MIT
-   pragma solidity ^0.8.0;
-
-   contract SampleContract {
-       string public greeting;
-
-       constructor() {
-           greeting = "Hello, World!";
-       }
-
-       function setGreeting(string memory _greeting) public {
-           greeting = _greeting;
-       }
-
-       function getGreeting() public view returns (string memory) {
-           return greeting;
-       }
-   }
+  
    ```
+  ![image](https://github.com/srijan9999/dapp/assets/148010653/f04ebd9f-9c7c-4271-88ff-069b88a65547)
 
-4. **Write tests for the smart contract:**
+
+5. **Write tests for the smart contract:**
    - In the `test` directory, create a new file named `sampleContract.test.js`:
 
    ```javascript
-   const { expect } = require("chai");
-
-   describe("SampleContract", function() {
-       it("Should return the correct greeting", async function() {
-           const SampleContract = await ethers.getContractFactory("SampleContract");
-           const sampleContract = await SampleContract.deploy();
-           await sampleContract.deployed();
-
-           expect(await sampleContract.getGreeting()).to.equal("Hello, World!");
-
-           // Change greeting
-           await sampleContract.setGreeting("Hola, Mundo!");
-           expect(await sampleContract.getGreeting()).to.equal("Hola, Mundo!");
-       });
-   });
+ 
    ```
+ ![image](https://github.com/srijan9999/dapp/assets/148010653/eda10fd8-b248-42eb-ac58-2ad54a15a103)
 
-5. **Compile the contracts:**
+
+6. **Compile the contracts:**
    - Run the following command in the terminal:
 
    ```bash
    npx hardhat compile
    ```
 
-6. **Write a frontend:**
-   - Create an `index.html` file in the root directory (see code snippet in previous message).
+7. **Write a frontend:**
+   - Create an `index.html` file in the root directory.
+      ```
+     
+       ```
 
-7. **Deploy the contract locally:**
+   - ![image](https://github.com/srijan9999/dapp/assets/148010653/f96aaccc-17db-4402-86f6-b3f076879da6)
+
+
+8. **Deploy the contract locally:**
    - Run the following command in the terminal:
 
    ```bash
    npx hardhat node
    ```
 
-8. **Interact with the frontend:**
+9. **Interact with the frontend:**
    - Replace `"YOUR_CONTRACT_ADDRESS"` in the `index.html` file with the deployed contract address.
    - Open the `index.html` file in a web browser.
 
