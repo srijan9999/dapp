@@ -1,4 +1,4 @@
-# DApp Sample using Hardhat on Windows with Visual Studio Code
+# DApp using Hardhat on Windows with Visual Studio Code
 
 This is a basic example of creating a decentralized application (DApp) using Hardhat on Windows with Visual Studio Code. 
 
